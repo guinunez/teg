@@ -1,0 +1,9 @@
+#define__ingdatos_h
+
+
+void banderas (int n){ 		     //PIDE LAS BANDERAS DE LOS JUGADORES.
+
+	int h;
+        h=n+1;
+	n=h-1;
+}

@@ -1,0 +1,23 @@
+#define __limpiar_h
+
+
+void limpiarsec(int xorig,int yorig,int xdest,int ydest){
+	int a,b;
+	char espacios[81];
+	for (b=0;b<=xdest - xorig;b++){
+		espacios[b]=' ';
+	}
+	espacios[xdest]='\0';
+
+/*
+	for (a=xorig;a<=xdest;a++){
+		for (b=yorig;b<=ydest;b++){
+			gotoxy(a,b);printf(" ");
+			}
+		}
+
+*/
+	for (a=yorig;a<=ydest;a++){
+		gotoxy(xorig,a);printf("%s",espacios);
+	}
+}

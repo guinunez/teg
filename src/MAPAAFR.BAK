@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+
+
+void main(){
+
+clrscr();
+
+	 gotoxy (12,5);printf("A BRASILм");
+	 gotoxy (22,1);printf("                 A TURQUIA");
+	 gotoxy (22,2);printf(" A ESPA╔A               A ISRAEL ");
+	 gotoxy (22,3);printf("        A POLONIA   ╨               ");
+	 gotoxy (22,4);printf("зддддпдд©         здпддддддп©       ");
+	 gotoxy (22,5);printf("╣       юдддбдпдддды         Ё       ");
+	 gotoxy (22,6);printf("Ё SAHARA    цдд©  EGIPTO     фммммм╩  ");
+	 gotoxy (22,7);printf("ю©         зы  юддддддддддддд╢     ╨  ");
+	 gotoxy (22,8);printf(" г©       зы   ETIOPIA      зы     ╨   ");
+	 gotoxy (22,9);printf(" ╨ю©     заддд©            зы      ╨  ");
+	 gotoxy (22,10);printf("╨  юбдддды    юддбддддддддбы       ╨  ");
+	 gotoxy (22,11);printf("╨   ю©  ZAIRE   зы       зы       зп©");
+	 gotoxy (22,12);printf("╨    ю©      здды       зы        ЁMADAGASCAR");
+	 gotoxy (22,13);printf("╨     ю©    зы         зы         Ё Ё");
+	 gotoxy (22,14);printf("╨      ю©  зы         зы          Ё Ё");
+	 gotoxy (22,15);printf("╨       юбдыSUDAFRICAзы           Ё Ё");
+	 gotoxy (22,16);printf("╨        ю©         зы            юры");
+	 gotoxy (22,17);printf("╨         ю©       зы              ╨   ");
+	 gotoxy (22,18);printf("╨          юддддддды               ╨   ");
+	 gotoxy (22,19);printf("хмммммммммммммммммммммммммммммммммм╪");
+
+	 getch();
+	 }
